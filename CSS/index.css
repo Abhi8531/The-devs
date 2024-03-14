@@ -3,6 +3,88 @@
     padding: 0%;
     box-sizing: border-box;
 }
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    background-color: #eeeeee;
+}
+.container{
+    background-color:transparent;
+}
+ .container .logo h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ animation: 2s ease-in-out 1s alternate infinite animatetrend;
+
+}
+@keyframes animatetrend {
+    from{ 
+      transform: translatex(-60px); opacity: 1
+      text-shadow: 2px 2px 5px blue; }
+
+        to {transform: translatex(60px); 
+        text-shadow: 2px 2px 5px blue;}
+    }
+        
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 2px 2px rgb(204, 203, 203);
+    padding: 20px;
+
+
+
+}
+ 
+nav .logo{
+    margin-left: 45px;
+    font-size:22px;
+    
+}
+nav h1{
+    font-family: 'Lato', sans-serif;
+}
+ul li a{
+    margin-inline: 25px;
+     font-size: 20px;
+     
+}
+ul #home{
+    color: rgb(1, 190, 190);
+}
+ul li i{
+    font-size: 22px;
+}
+ul li i:hover{
+    color: rgb(87, 86, 86);
+    cursor: pointer;
+}
+ul li a:hover{
+     color: green;
+     margin-left: 6px;
+     transition: ;
+     cursor: pointer;
+
+     border-bottom: 2px solid rgb(73, 73, 73);
+      
+}
+ul{
+    margin-right: 50px;
+    margin-top: 6px;
+}
+ 
+nav ul{
+    list-style: none;
+}
+
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
  
 .footer{
     color: #fff;
