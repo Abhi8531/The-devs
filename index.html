@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The DEV."
+    />
+    <meta
+      name="keywords"
+      content="shop, matters, items frames, bat store, bedroom, html, css, javascript, js"
+    />
+    <meta name="author" content="Abhi " />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css"
+      integrity="sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>SHOP</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-center container">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <div class="nav-list-center">
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+            </ul>
+          </div>
+
+          <h1 class="nav-title">Store</h1>
+
+          <div class="nav-list-center">
+            <ul class="nav-list">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <div class="cart-btn">
+                <span class="nav-icon">
+                  <i class="ri-shopping-cart-line"></i>
+                </span>
+                <div class="cart-items">0</div>
+              </div>
+              <div class="cart-btn">
+                <span class="nav-icon">
+                  <img
+                    src="images/icons8-wishlist-66.png"
+                    alt=""
+                    height="22px"
+                    width="22px"
+                  />
+                </span>
+                <div class="cart-items">2</div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="">
+        <div class="search-container">
+          <div class="search-border container">
+            <i class="search-icon ri-search-2-line"></i>
+            <input class="search" type="search" placeholder="Search" />
+          </div>
+        </div>
+
+        <div class="">
+          <div class="products">
+            <h2 class="section-title">Products</h2>
+
+            <div class="container">
+              <div class="products-center">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer">
+        <div class="author-container container">
+          <span>
+            <i class="ri-user-3-line"></i>
+            <p>Contributor: The Devs</p>
+          </span>
+          <span>
+            <i class="ri-mail-send-line"></i>
+            <a class="mail" href="mailto:abhishekvnagar85@gmail.com"
+              >abhishekvnagar85@gmail.com</a
+            >
+          </span>
+          <div class="social-media">
+            <div class="social-icon">
+              <a href="https://github.com/Abhi8531">
+                <i class="ri-github-line"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/imp-abhishekkumar/">
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+
+              <a href="http://">
+                <i class=""></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <section class="cart-modal">
+      <div class="backdrop"></div>
+
+      <div class="cart">
+        <h3 class="cart-title">Your Cart</h3>
+
+        <div class="cart-content">
+          
+        </div>
+
+        <!--# cart-footer #-->
+        <div class="cart-footer">
+          <div class="">
+            <span class="cart-total">Total price:</span>
+          </div>
+          <div class="">
+            <button class="btn clear-cart">Clear</button>
+            <button class="btn cart-item-confirm">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
